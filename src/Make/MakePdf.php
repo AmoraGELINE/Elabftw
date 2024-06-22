@@ -246,7 +246,6 @@ class MakePdf extends AbstractMakePdf
             // TODO fix for templates
             'linkBaseUrl' => $baseUrls,
             'url' => sprintf('%s/%s.php?mode=view&id=%d', $siteUrl, $this->Entity->entityType->toPage(), $this->Entity->id ?? 0),
-            'useCjk' => $this->requester->userData['cjk_fonts'],
         );
 
         $Config = Config::getConfig();
