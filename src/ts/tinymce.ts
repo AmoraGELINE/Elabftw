@@ -122,7 +122,7 @@ export function getTinymceBaseConfig(page: string): object {
     browser_spellcheck: true,
     // location of the skin directory
     skin_url: '/assets',
-    content_css: '/assets/tinymce_content.min.css',
+    content_css: 'assets/tinymce_content.min.css',
     emoticons_database_url: 'assets/tinymce_emojis.js',
     // remove the "Upgrade" button
     promotion: false,
