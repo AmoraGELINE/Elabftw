@@ -46,7 +46,7 @@
     "twig/intl-extra": "^3.3",
     "symfony/yaml": "^6.2",
     "fakerphp/faker": "^1.21",
-    "paragonie/constant_time_encoding": "^2.6",
+    "paragonie/constant_time_encoding": "^3.0",
     "stevebauman/hypertext": "^1.0",
     "league/flysystem-local": "^3.25",
     "guzzlehttp/psr7": "^2.6",
